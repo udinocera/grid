@@ -1,0 +1,58 @@
+
+
+.contenitore {
+background-color: rgb(34,34,34);
+max-width: 350px;
+border: rgb(34,34,34) 1px solid;
+border-radius: 10px;
+}
+
+.barra {
+    text-align: end;
+    background-color: rgb(34,34,34)
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+.operatori {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: stretch;
+    text-align: center;
+    background-color: grey;  
+
+}
+
+
+
+.bottone {
+ font-weight: bold;
+ font-size: 20px;
+ padding: 30px;
+}
+
+.bottone-numero {
+background-color: white;
+border: 1px rgb(34,34,34) solid;
+padding: 30px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.bottone-uguale {
+
+padding: 30px;
+background-color: violet;
+}
+
+
+
+
+
