@@ -1,58 +1,50 @@
-
-
-.contenitore {
-background-color: rgb(34,34,34);
-max-width: 350px;
-border: rgb(34,34,34) 1px solid;
-border-radius: 10px;
-}
-
-.barra {
-    text-align: end;
-    background-color: rgb(34,34,34)
-}
-
-p {
-    color: white;
-    font-size: 20px;
-    padding-right: 10px;
-}
-
-
-.operatori {
-    max-width: 400px;
+.contenitore  {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-items: stretch;
-    text-align: center;
-    background-color: grey;  
+    grid-auto-rows: 80px;
+    width: 400px;
+    border: 3px solid gray;
+    border-radius: 10px;
+   
+}
 
+.child {
+    border: 2px solid gray;
+    font-size: 30px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.child-display {
+background-color: grey;
+grid-column: 1/5;
+text-align: end;
+font-size: 40px;
+padding-top: 15px;
+padding-right: 10px;
+color: white;
+
+
+
+
+}
+
+.child-operatore {
+    background-color: rgb(108, 204, 204);
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
 
-.bottone {
- font-weight: bold;
- font-size: 20px;
- padding: 30px;
+
+
+.child-uguale {
+    background-color: rgb(238, 131, 149);
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-row-end: 7;
+    font-size: 30px;
+    font-weight: bold;
+
 }
-
-.bottone-numero {
-background-color: white;
-border: 1px rgb(34,34,34) solid;
-padding: 30px;
-font-weight: bold;
-font-size: 20px;
-}
-
-.bottone-uguale {
-
-padding: 30px;
-background-color: violet;
-}
-
-
-
-
-
